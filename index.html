@@ -1,0 +1,48 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Lendo CSV</title>
+</head>
+<body >
+  <div>
+    <form class="form-horizontal well">
+      <legend>
+        <h1>
+          <div id="title">Lendo CSV</div>
+        </h1>
+      </legend>
+      <fieldset>
+          <label for="csvFileInput"> <strong>CSV File:</strong>
+          </label>
+          <input type="file" id="csvFileInput" onchange="handleFiles(this.files)"
+          accept=".csv">
+        </div>
+      </fieldset>
+    </form>
+    <div id="output">
+    </div>
+
+    
+    <div class="variaveis">
+      variavelX <input value="0" id="variavelX">
+      variavelY <input value="0" id="variavelY">
+      variavelA <input value="0" id="variavelA">
+      variavelB <input value="0" id="variavelB">  
+    </div>
+
+    <div id="valores">
+      <h1>Valores:</h1>
+      <h3 id="X">X = 0</h3>
+      <h3 id="Y">Y = 0</h3>
+      <h3 id="a">a = 0</h3>
+      <h3 id="b">b = 0</h3>
+    </div>
+
+  </div>
+  <br>
+  <br>
+
+  <script type="text/javascript" src="js/read-csv.js"></script>
+
+</body>
+</html>
