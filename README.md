@@ -1,4 +1,4 @@
-# Leitor_de_CSV_JavaScript
+# Leitor de CSV usando JavaScript
 Simples leitor de arquivos CSV que pega os valores que estão no arquivo e salva em variáveis locais no código JavaScript.
 
 <h1 align="center">
